@@ -36,5 +36,7 @@
             </mat-card-actions>
         </mat-card>
     </div> -->
+    <div fxFlex *ngIf = "!noDishSelected">
     <app-dishdetail [dish]="selectedDish"></app-dishdetail>
+    </div>
 </div>
